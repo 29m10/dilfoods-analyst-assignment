@@ -157,5 +157,3 @@ def predict_future_sales():
     forecast_df.to_csv(output_file_path, index=False)
 
     return True
-
-predict_future_sales()
